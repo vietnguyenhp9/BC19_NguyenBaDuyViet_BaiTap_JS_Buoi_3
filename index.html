@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js</title>
+  </head>
+  <body style="text-align: center">
+    <h1>BÀI 1</h1>
+    <h2>Hãy nhập số ngày làm :</h2>
+    <input type="text" name="Ngay" id="Ngay" placeholder="Số ngày" />
+    <br />
+    <button
+      type="button"
+      onclick="tongLuong();"
+      style="
+        width: 100px;
+        height: 22px;
+        padding-top: 0px;
+        margin-top: 20px;
+        background-color: green;
+        color: white;
+        border-radius: 25px;
+      "
+    >
+      Tổng Lương
+    </button>
+
+    <div id="divTongLuong" style="display: none">
+      <h2>Tổng lương : <span id="vnd">vnd</span></h2>
+    </div>
+
+    <h1>Bài 2</h1>
+    <h2>Hãy nhập a, b, c, d, e</h2>
+    <input
+      type="text"
+      name="a"
+      id="a"
+      placeholder="a"
+      style="margin-bottom: 15px"
+    /><br />
+    <input
+      type="text"
+      name="b"
+      id="b"
+      placeholder="b"
+      style="margin-bottom: 15px"
+    />
+    <br />
+    <input
+      type="text"
+      name="c"
+      id="c"
+      placeholder="c"
+      style="margin-bottom: 15px"
+    /><br />
+    <input
+      type="text"
+      name="d"
+      id="d"
+      placeholder="d"
+      style="margin-bottom: 15px"
+    /><br />
+    <input
+      type="text"
+      name="e"
+      id="e"
+      placeholder="e"
+      style="margin-bottom: 15px"
+    /><br />
+    <button
+      type="button"
+      onclick="trungBinh();"
+      style="
+        background-color: rgb(56, 75, 128);
+        color: white;
+        border-radius: 25px;
+      "
+    >
+      Trung Bình
+    </button>
+    <div id="divTrungBinh" style="display: none">
+      <h2>Trung Bình =<span id="diem"></span></h2>
+    </div>
+
+    <h1>Bài 3</h1>
+    <h2>nhập số tiền USD</h2>
+    <input type="text" name="USD" id="USD" placeholder="USD" /><br />
+    <button
+      type="button"
+      onclick="quyDoi();"
+      style="
+        background-color: rgb(219, 138, 31);
+        color: white;
+        border-radius: 25px;
+        margin-top: 20px;
+      "
+    >
+      Quy Đổi
+    </button>
+    <div id="divQuyDoi" style="display: none">
+      <h2>VND =<span id="spanvnd">vnd</span></h2>
+    </div>
+
+    <h1>Bài 4</h1>
+    <h2>Nhập chiều dài</h2>
+    <input type="text" name="chuVi" id="chieudai" placeholder="Chiều dài" />
+    <h2>Nhập chiều rộng</h2>
+    <input
+      type="text"
+      name="dienTich"
+      id="chieurong"
+      placeholder="Chiều rộng"
+    />
+    <br />
+    <button
+      type="button"
+      onclick="tinh();"
+      style="
+        background-color: rgb(100, 29, 91);
+        color: white;
+        border-radius: 25px;
+        margin-top: 20px;
+      "
+    >
+      Tính
+    </button>
+    <div id="divTinh" style="display: none">
+      <h2>
+        chu vi =
+        <span id="spanchuvi">cm</span>
+        diện tích =
+        <span id="spandientich">cm</span>
+      </h2>
+    </div>
+
+    <h1>Bài 5</h1>
+    <h2>Nhập 1 số có 2 chữ số</h2>
+    <input type="text" name="so" id="so" /> <br />
+    <button
+      type="button"
+      onclick="tong();"
+      style="
+        background-color: rgb(79, 92, 10);
+        color: white;
+        border-radius: 25px;
+        margin-top: 20px;
+      "
+    >
+      Tổng
+    </button>
+    <div id="divtong" style="display: none">
+      <h2>Tổng 2 chữ số = <span id="spantong"></span></h2>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
